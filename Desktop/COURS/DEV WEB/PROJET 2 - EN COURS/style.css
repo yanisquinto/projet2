@@ -2,7 +2,6 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -52,7 +51,59 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
+/****** HEADER - En tête avec Logo + Boutons du Menu ***********/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 112px;
+}
 
+.logo {
+    position: absolute;
+    height: 19px;
+    width: 61.089656829833984px;
+    left: 30px;
+    top: 30px;
+    border-radius: 0px;
+  }
+.header-button {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    border: none;
+    background-color:  transparent;
+    position: relative;
+}
+.header-button span {
+    position: relative;
+    top: -30px; /* Ajustement des mots "Hébergements" et "Activités" qui étaient trop bas */
+}
+.header-button :hover {
+    border-top: solid 2px #0065FC;
+    padding-top: 20px;
+    cursor: pointer;
+    color: #0065FC;
+}
+.header-button :hover {
+    color: #0065FC;
+}
+.header-button :active {
+    text-decoration: none;
+    color: #0065FC;
+}
+.header-button :link {
+    text-decoration: none; /* Correction des boutons qui se présentaient un surlignage */
+    color: #0065FC;
+}
+.header-button :visited {
+    color: black; /* Correction des boutons qui se mettaient en violet par défaut après le clique*/
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
