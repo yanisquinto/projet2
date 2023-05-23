@@ -105,6 +105,73 @@ body {
     color: black; /* Correction des boutons qui se mettaient en violet par défaut après le clique*/
 }
 /****** Hebergements And Populaires ***********/
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 10px;
+}
+.search-button {
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px 15px 16px;
+    background: #0065FC;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    margin: 0;
+}
+.search-icon {
+    width: 50px;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    position: relative;
+    margin: 0;
+}
+.search-icon ::before {
+    content: "\f3c5"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type="search"] {
+    box-sizing: border-box;
+    height: 51px;
+    width: 195px;
+    margin: -10px;
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    border-left-width: 0;
+    border-right-width: 0;
+    background: #FFFFFF;
+}
+input[type="search"]::placeholder {
+    color: #000000;
+}
+
+/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
