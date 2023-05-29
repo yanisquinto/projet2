@@ -154,7 +154,7 @@ input[type="search"] {
     box-sizing: border-box;
     height: 51px;
     width: 195px;
-    margin: -10px;
+    margin: -10px; 
     color: #000000;
     font-family: 'Raleway';
     font-style: normal;
@@ -170,7 +170,118 @@ input[type="search"] {
 input[type="search"]::placeholder {
     color: #000000;
 }
-
+/****** FILTRES ***********/
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+}
+.filtertitle {
+    display: flex;
+}
+.filterfilter {
+    display: flex;
+}
+.filtericon {
+    display: flex;
+}
+.filterfiltertitle {
+    width: 64px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.filtereco {
+    box-sizing: border-box;
+    display: flex;
+    filter: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.filtereco:hover {
+    background-color: #DEEBFF;
+}
+.filterfami {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.filterfami:hover {
+    background-color: #DEEBFF;
+}
+.filterroman {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.filterroman:hover {
+    background-color: #DEEBFF;
+}
+.filterpepite {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.filterpepite:hover {
+    background-color: #DEEBFF;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
