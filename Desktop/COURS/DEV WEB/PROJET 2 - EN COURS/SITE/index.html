@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/926fed3d7c.js" crossorigin="anonymous"></script>
 </head>
@@ -20,8 +20,8 @@
         <header>
             <div class="header">
                 <img class="logo" src="./images/logo/Booki.png" alt="Logo">
-                <button class="header-button"><a href="#hébergements"></a><span>Hébergements</span></button>
-                <button class="header-button"><a href="activités"></a><span>Activités</span></button>    
+                <button class="header-button"><span>Hébergements</span></button>
+                <button class="header-button"><span>Activités</span></button>    
             </div>
         </header>
         <main>
@@ -33,6 +33,7 @@
                 <span class="search-icon icon-wrapper"><i class="fa-solid fa-location-dot" style="color: #000000;"></i></span>
                 <input type="search" name="destination" id="destination" placeholder="Marseille, France">
                 <button class="search-button">Rechercher</button>
+                <button class="icon-button"><i class="fas fa-search"></i></button>
             </form>
             <div class="filter">
                 <h2 class="filtertitle">Filtres</h2>
@@ -57,7 +58,7 @@
             </div>
             <div class="infobar">
                 <span class="infobaricon"><i class="fa-solid fa-info" style="color: #0065FC;"></i></span>
-                    Plus de 500 logements sont diponible dans cette ville
+                    <span class="infobartxt">Plus de 500 logements sont diponible dans cette ville</span>
             </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
@@ -226,8 +227,64 @@
                     </div>
                 </section>
             </div>
+            <section>
+                <h2 class="activity-main-title">Activités à Marseille</h2>
+                <div class="activities-list">
+                    <div class="activity-1">
+                            <article class="activity-card">
+                                <img src="./images/activites/reno-laithienne.jpg" class="activity-img" alt="Vieux Port">
+                                <h3 class="activity-title">Vieux Port</h3>
+                            </article>
+                    </div>
+                    <div class="activity-1">     
+                            <article class="activity-card">
+                                <img src="./images/activites/paul-hermann.jpg" class="activity-img" alt="Fort de Pomègues">                              
+                                <h3 class="activity-title">Fort de Pomègues</h3>
+                            </article>
+                        
+                    </div>
+                    <div class="activity-1">
+                            <article class="activity-card">
+                                <img src="./images/activites/kilyan-sockalingum.jpg" class="activity-img" alt="Parc national des Calanques">   
+                                <h3 class="activity-title">Parc national des Calanques</h3>
+                            </article>
+                    </div>
+                    <div class="activity-1">
+                            <article class="activity-card">
+                                <img src="./images/activites/florian-wehde.jpg" class="activity-img" alt="Notre-Dame-De-La-Garde">
+                                <h3 class="activity-title">Notre-Dame-De-La-Garde</h3>
+                            </article>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        
+        <footer>
+            <div class="footer-container">
+                <div class="footer">
+                    <h3>A propos</h3>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Soumettre votre hôtel</a></li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
